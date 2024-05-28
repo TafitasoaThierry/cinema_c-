@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{18175C6F-2A54-40B6-A636-74ABBE4D8021}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Reservation</RootNamespace>
+    <AssemblyName>Reservation</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=8.3.0.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin.cs" />
+    <Compile Include="Client.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1214064-rangees-de-sieges-de-cinema-sur-noir-gratuit-vectoriel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-black-background-with-popcorn-image_2652581.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360_F_507677881_lwsOUToBTTOk0mHHPhyudfK4BGS9LGO1 %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\desktop-wallpaper-cinema-high-quality-cinema.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\90a27ba9be0db70843efbf48fa988d5c %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-pixabay-531880.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4ab13-16671665709974-1920.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4ab13-16671665709974-19201.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\90a27ba9be0db70843efbf48fa988d5c.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cinema-background-concept-movie-theater-object-isolated-on-white-background-illustration-free-vector.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\desktop-wallpaper-cinema-high-quality-cinema1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1214064-rangees-de-sieges-de-cinema-sur-noir-gratuit-vectoriel1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1214064-rangees-de-sieges-de-cinema-sur-noir-gratuit-vectoriel2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1214064-rangees-de-sieges-de-cinema-sur-noir-gratuit-vectoriel3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1214064-rangees-de-sieges-de-cinema-sur-noir-gratuit-vectoriel4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c454d3e7e714d54dc292a61d3b2dfc96 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360_F_507677881_lwsOUToBTTOk0mHHPhyudfK4BGS9LGO1 %282%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\desktop-wallpaper-cinema-high-quality-cinema2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cinema-background-concept-movie-theater-object-isolated-on-white-background-illustration-free-vector1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\72714049.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\desktop-wallpaper-cinema-high-quality-cinema3.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

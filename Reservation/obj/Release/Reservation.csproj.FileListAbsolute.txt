@@ -1,0 +1,12 @@
+F:\Langages\C#\Reservation\Reservation\Reservation\bin\Release\Reservation.exe.config
+F:\Langages\C#\Reservation\Reservation\Reservation\bin\Release\Reservation.exe
+F:\Langages\C#\Reservation\Reservation\Reservation\bin\Release\Reservation.pdb
+F:\Langages\C#\Reservation\Reservation\Reservation\bin\Release\MySql.Data.dll
+F:\Langages\C#\Reservation\Reservation\Reservation\obj\Release\Reservation.csproj.AssemblyReference.cache
+F:\Langages\C#\Reservation\Reservation\Reservation\obj\Release\Reservation.Form1.resources
+F:\Langages\C#\Reservation\Reservation\Reservation\obj\Release\Reservation.Properties.Resources.resources
+F:\Langages\C#\Reservation\Reservation\Reservation\obj\Release\Reservation.csproj.GenerateResource.cache
+F:\Langages\C#\Reservation\Reservation\Reservation\obj\Release\Reservation.csproj.CoreCompileInputs.cache
+F:\Langages\C#\Reservation\Reservation\Reservation\obj\Release\Reservation.csproj.CopyComplete
+F:\Langages\C#\Reservation\Reservation\Reservation\obj\Release\Reservation.exe
+F:\Langages\C#\Reservation\Reservation\Reservation\obj\Release\Reservation.pdb
